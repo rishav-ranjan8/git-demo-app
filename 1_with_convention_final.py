@@ -1,4 +1,3 @@
-
 '''
 # OBJECTIVE
  - Use logical names for Python functions, variables, methods, classes, modules and packages.
@@ -10,26 +9,26 @@ e.g. EmployeeInfo, Student
 Package : Use a short, lowercase word or words. Do not separate words with underscores.
 e.g. reporting, analytics
 '''
-class MyClass:
-    def __init__(self, a, b):
-        self.a = a
-        self.b = b
+class Calculator:
+    def __init__(self, operand_1, operand_2):
+        self.operand_1 = operand_1
+        self.operand_2 = operand_2
 
-    def my_op_1(self):
-        return self.a + self.b
+    def calculate_sum(self):
+        return self.operand_1 + self.operand_2
     
-    def multiply(self):
-        return self.a * self.b
+    def calculate_product(self):
+        return self.operand_1 * self.operand_2
 
-    def get_diff(self):
-        return self.a - self.b
+    def calculate_difference(self):
+        return self.operand_1 - self.operand_2
     
     def calculate_quotient(self):
-        return self.a / self.b
+        return self.operand_1 / self.operand_2
 
 num_1 = int(input("Enter first number: "))
 num_2 = int(input("Enter second number: "))
-operands = MyClass(num_1, num_2)
+operands = Calculator(num_1, num_2)
 choice = 1
 while choice != 0:
     print("Enter Choice of Arithmetic Operation")
@@ -37,15 +36,15 @@ while choice != 0:
     print("1. Add")
     print("2. Subtraction")
     print("3. Multiplication")
-    print("4. Divide")
+    print("4. Division")
     choice = int(input("Enter choice: "))
     print(f"Entered choice is: {choice}")
     if choice == 1:
-        print("Result: ", operands.my_op_1())
+        print("Result: ", operands.calculate_sum())
     elif choice == 2:
-        print("Result: ", operands.get_diff())
+        print("Result: ", operands.calculate_difference())
     elif choice == 3:
-        print("Result: ", operands.multiply())
+        print("Result: ", operands.calculate_product())
     elif choice == 4:
         print("Result: ", round(operands.calculate_quotient(),2))
     elif choice == 0:
@@ -53,3 +52,6 @@ while choice != 0:
         print(f"Entered choice 0 to end program execution")
     else:
         print("Not a valid choice")
+
+
+
