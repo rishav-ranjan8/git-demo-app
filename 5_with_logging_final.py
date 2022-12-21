@@ -6,7 +6,7 @@ Logging is a means of tracking events that happen when some software runs.
 The software developer adds logging calls to their code to indicate that certain events have occurred.
 Log Levels : NOTSET | DEBUG | INFO | WARNING | ERROR | CRITICAL
 '''
-
+# add a dummy comment
 # Initialize logger
 import logging
 logger = logging.getLogger(__name__)
