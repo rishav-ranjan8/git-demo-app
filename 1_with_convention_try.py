@@ -1,3 +1,4 @@
+
 '''
 # OBJECTIVE
  - Use logical names for Python functions, variables, methods, classes, modules and packages.
@@ -52,6 +53,3 @@ while choice != 0:
         print(f"Entered choice 0 to end program execution")
     else:
         print("Not a valid choice")
-
-
-
