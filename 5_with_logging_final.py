@@ -54,7 +54,7 @@ class Calculator:
         self.operand_2 = operand_2
 
     def calculate_sum(self):
-        logger.debug(f"Inside calculate_sum method for calculating sum of operands")
+        logger.debug(f"Inside calculate_sum method for calculating sum of operands. Hurray")
         return self.operand_1 + self.operand_2
     
     def calculate_product(self):
