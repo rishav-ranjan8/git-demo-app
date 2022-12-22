@@ -6,7 +6,7 @@ Logging is a means of tracking events that happen when some software runs.
 The software developer adds logging calls to their code to indicate that certain events have occurred.
 Log Levels : NOTSET | DEBUG | INFO | WARNING | ERROR | CRITICAL
 '''
-
+# add a dummy comment
 # Initialize logger
 import logging
 logger = logging.getLogger(__name__)
@@ -54,7 +54,7 @@ class Calculator:
         self.operand_2 = operand_2
 
     def calculate_sum(self):
-        logger.debug(f"Inside calculate_sum method for calculating sum of operands")
+        logger.debug(f"Inside calculate_sum method for calculating sum of operands. Hurray")
         return self.operand_1 + self.operand_2
     
     def calculate_product(self):
