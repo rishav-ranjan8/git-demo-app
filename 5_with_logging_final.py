@@ -1,4 +1,4 @@
-# add comment from main
+# add comment from feature
 '''
 # OBJECTIVE
  - Use logging to track events during program execution
@@ -126,4 +126,5 @@ try:
 except Exception as err:
     print(f"Encountered exception: {err} while running calculator")
 
+# end of file
 
