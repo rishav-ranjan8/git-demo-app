@@ -12,7 +12,7 @@ e.g. reporting, analytics
 class Calculator:
     def __init__(self, operand_1, operand_2):
         self.operand_1 = operand_1
-        self.operand_2 = operand_2
+        self.operand_2 = operand_2 # add dummy comment
 
     def calculate_sum(self):
         return self.operand_1 + self.operand_2
