@@ -1,3 +1,4 @@
+# add comment from main
 '''
 # OBJECTIVE
  - Use logging to track events during program execution
